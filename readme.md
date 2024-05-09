@@ -25,13 +25,10 @@ En JavaScript, las variables se pueden declarar utilizando las palabras clave va
 ### Ejemplo de tipos de datos en JavaScript:
 ```
 // Variables de cadena (String)
-let nombre = "Javier";
-let apellido = "Bernal";
-
-// Variables Numericas (Number)
-let edad = 21;
-let tamaño = 1.75;
-
-// Variables de Verdadero oh Falso (Booleanas)
-let esMayorDeEdad = true;
-let esMenorDeEdad = false;
+Numbers: let edad = 25;
+Strings: let nombre = "Juan";
+Booleans: let esMayor = true;
+Arrays: let numeros = [1, 2, 3, 4, 5];
+Objects: let persona = { nombre: "Ana", edad: 30 };
+Null: let valor = null;
+Undefined: let variableIndefinida;
