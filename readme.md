@@ -1,8 +1,6 @@
-# Tarea-IDat-JAVASCRIPT-Calculadora
+# Gestión de Información de una Persona
 
-## Ejercicio: Gestión de Información de una Persona:
-
-
+## Ejercicio:
 
 1. Crear un objeto persona con propiedades básicas.
 
