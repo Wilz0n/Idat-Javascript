@@ -1,4 +1,4 @@
-# Calculadora Básica con Condicionales
+# Calculadora Básica con Condicionales (Calculadora)
  
  Escribe un programa en JavaScript que funcione como una calculadora básica. El programa debe pedir al usuario que ingrese dos números y una operación (suma, resta, multiplicación, división o módulo). Luego, debe realizar la operación y mostrar el resultado.
  
