@@ -1,72 +1,72 @@
- // JavaScript para manipular el DOM
+// JavaScript para manipular el DOM
 
-        // getElements
+// getElements
 
-        let doc = document;
-        console.log(doc);
+let doc = document;
+console.log(doc);
 
-        let headElement = document.head;
-        console.log(headElement);
+let headElement = document.head;
+console.log(headElement);
 
-        let bodyElement = document.body;
-        console.log(bodyElement);
+let bodyElement = document.body;
+console.log(bodyElement);
 
-        // getElementById
+// getElementById
 
-        const header = document.getElementById('header');
-        console.log(header);
+const header = document.getElementById('header');
+console.log(header);
 
-        // querySelector
+// querySelector
 
-        const mainTitle = document.querySelector('.title');
-        console.log(mainTitle);
+const mainTitle = document.querySelector('.title');
+console.log(mainTitle);
 
-        // querySelectorAll
+// querySelectorAll
 
-        const navLinks = document.querySelectorAll('nav a');
-        console.log(navLinks);
+const navLinks = document.querySelectorAll('nav a');
+console.log(navLinks);
 
-        // modifiedElements
+// modifiedElements
 
-        const headerTitle = document.getElementById('header-title');
-        headerTitle.textContent = 'Nuevo Título del Encabezado';
-        console.log(headerTitle.textContent);
+const headerTitle = document.getElementById('header-title');
+headerTitle.textContent = 'Nuevo Título del Encabezado';
+console.log(headerTitle.textContent);
 
-        headerTitle.innerHTML = `<span>Título con HTML</span>`;
-        console.log(headerTitle.innerHTML);
+headerTitle.innerHTML = `<span>Título con HTML</span>`;
+console.log(headerTitle.innerHTML);
 
-        // styles
+// styles
 
-        headerTitle.style.color = 'blue';
-        console.log(headerTitle.style.color);
+headerTitle.style.color = 'blue';
+console.log(headerTitle.style.color);
 
-        headerTitle.classList.add('highlight', 'large-text');
-        console.log(headerTitle.classList);
+headerTitle.classList.add('highlight', 'large-text');
+console.log(headerTitle.classList);
 
-        headerTitle.classList.remove('highlight');
-        console.log(headerTitle.classList);
+headerTitle.classList.remove('highlight');
+console.log(headerTitle.classList);
 
-        // Dom Traversing
+// Dom Traversing
 
-        const listItem = document.querySelector('ul li');
-        console.log(listItem.parentElement.parentElement);
+const listItem = document.querySelector('ul li');
+console.log(listItem.parentElement.parentElement);
 
-        const firstItem = document.getElementById('item1');
-        const nextItem = firstItem.nextElementSibling;
-        console.log(nextItem);
+const firstItem = document.getElementById('item1');
+const nextItem = firstItem.nextElementSibling;
+console.log(nextItem);
 
-        const nav = document.querySelector('nav');
-        console.log(nav.children[0].children[1]);
+const nav = document.querySelector('nav');
+console.log(nav.children[0].children[1]);
 
-        // Create element
+// Create element
 
-        const newParagraph = document.createElement('p');
-        const contentContainer = document.getElementById('content');
+const newParagraph = document.createElement('p');
+const contentContainer = document.getElementById('content');
 
-        newParagraph.textContent = 'Este párrafo fue creado con createElement.';
+newParagraph.textContent = 'Este párrafo fue creado con createElement.';
 
-        newParagraph.classList.add('text-primary', 'mb-3');
-        newParagraph.setAttribute('id', 'new-paragraph');
+newParagraph.classList.add('text-primary', 'mb-3');
+newParagraph.setAttribute('id', 'new-paragraph');
 
-        contentContainer.appendChild(newParagraph);
-        console.log(newParagraph);
+contentContainer.appendChild(newParagraph);
+console.log(newParagraph);
