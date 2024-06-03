@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Todo List</title>
 </head>
 <body>
+    <h1>Todo List</h1>
 
-    <script src="./Javascript/TodoLIST.js"></script>
+    <form id="formElement">
+        <div>
+            <label for="nameElement">Nombre task:</label>
+            <input type="text" id="nameElement" placeholder="Ingrese el nombre" />
+        </div>
+
+        <br>
+
+        <div>
+            <label for="autorElement">Autor:</label>
+            <input type="text" id="autorElement" placeholder="Ingrese el autor" />
+        </div>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="message" class="error">Por favor, complete todos los campos.</p>
+
+    <script type="module" src="./Javascript/TodoLIST.js"></script>
 </body>
 </html>
